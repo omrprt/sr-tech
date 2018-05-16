@@ -4,7 +4,7 @@ body {
 }
 
 header img {
-  margin: 20px 10% 10px 10%;
+  margin: 20px 15% 10px;
 }
 
 nav {
@@ -25,7 +25,7 @@ ul {
   display: flex;
   list-style: none;
   padding: 0;
-  margin: 0 10%;
+  margin: 0 15%;
   font: 16px/16px Arial;
 }
 
@@ -33,7 +33,7 @@ li {
     margin: 5px 10px;
 }
 
-a {
+.mainNav a {
   text-decoration: none;
   color: white;
 }
@@ -41,7 +41,7 @@ a {
 main {
   background-color: white;
   margin-bottom: 0;
-  margin: 0 10%;
+  margin: 0 15%;
   padding: 20px 30px 30px 30px;
 }
 
@@ -51,19 +51,67 @@ h1 {
   margin: 0 0 10px 0;
 }
 
+h2 {
+  margin: 0;
+  font: bold 18px/18px arial;
+}
+
+h3 {
+  font: bold 15px/15px Arial;
+  margin-bottom: 0;
+}
+
+p{
+  font: 15px/15px arial;
+  margin: 0;
+}
+
 main img {
   object-fit: cover;
   width: 100%;
   height: 300px;
 }
 
+.event{
+  display: flex;
+}
+
 .eventForm {
-  border-style: solid;
-   border-width: 1px;
+  border: 1px solid lightgray;
+  margin-top: 20px;
+  margin: 20px 0 0;
+  padding: 20px;
+}
+
+input {
+  margin: 5px;
+}
+
+form span {
+  margin-left: 50px;
+  font: bold 15px/15px Arial;
+  color: #14c7f5;
 }
 
 hr {
   width: 95%;
+  color: lightgray;
+}
+
+.inputField {
+  width: 90%;
+}
+
+.button {
+  background-color: orange;
+  font: bold 16px/16px arial;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.eventDetails {
+  padding: 20px 5% 20px 6%;
 }
 
 footer {
