@@ -8,8 +8,9 @@
 
 
 
-## Adding Details
-  - Change logo background color
+## Blockers
+  - Change logo background colour
+  - the nav active link arrow icon
 
 ## Instructions
 The task is to build a single page showing an event, within the page is a form to submit details for a ticket as well as information on the event and the location.

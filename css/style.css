@@ -3,22 +3,30 @@ body {
   padding: 0;
 }
 
+header img {
+  margin: 20px 10% 10px 10%;
+}
+
 nav {
   width: 100%;
 }
 
-.mainNav{
+.mainNav {
   background-color: #21537C;
   color: white;
+  font: bold 16px/16px Arial;
 }
 
-.subNav{
+.subNav {
   color:#005480;
 }
 
 ul {
   display: flex;
   list-style: none;
+  padding: 0;
+  margin: 0 10%;
+  font: 16px/16px Arial;
 }
 
 li {
@@ -33,6 +41,20 @@ a {
 main {
   background-color: white;
   margin-bottom: 0;
+  margin: 0 10%;
+  padding: 20px 30px 30px 30px;
+}
+
+h1 {
+  color: #003d5d;
+  font: bold 25px/25px Open, Sans;
+  margin: 0 0 10px 0;
+}
+
+main img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
 }
 
 .eventForm {
