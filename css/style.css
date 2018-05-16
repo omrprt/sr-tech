@@ -122,8 +122,18 @@ hr {
 }
 
 .eventDetails {
-  padding: 20px 5% 20px 6%;
+  padding: 20px 5% 0px 6%;
 }
+
+.gMap {
+  width: 100%;
+  height: 200px;
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 footer {
   background-color: #21537C;
