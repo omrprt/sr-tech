@@ -1,19 +1,15 @@
 # SpareRoom Web Team Technical Task
 
+
+## To Do
   -started off by making the basic template
   -access the json file
-  -add the map api
+  -add map api
 
-## Contents
-  - design-fullwidth.png
-  - design-fullwidth-spacing.png
-  - design-minwidth.png
-  - design-minwidth-spacing.png
-  - event.json
-  - ReadMe.md - This file
-  - assets
-    - bar-photo.jpg
-    - logo.png
+
+
+## Adding Details
+  - Change logo background color
 
 ## Instructions
 The task is to build a single page showing an event, within the page is a form to submit details for a ticket as well as information on the event and the location.

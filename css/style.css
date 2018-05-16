@@ -1,5 +1,10 @@
 body {
+  margin: 0;
+  padding: 0;
+}
 
+nav {
+  width: 100%;
 }
 
 .mainNav{
@@ -8,7 +13,7 @@ body {
 }
 
 .subNav{
-  color:#21537C;
+  color:#005480;
 }
 
 ul {
@@ -25,7 +30,22 @@ a {
   color: white;
 }
 
+main {
+  background-color: white;
+  margin-bottom: 0;
+}
 
-a:visited {
-    text-decoration: none;
+.eventForm {
+  border-style: solid;
+   border-width: 1px;
+}
+
+hr {
+  width: 95%;
+}
+
+footer {
+    background-color: #21537C;
+    margin-top: 0;
+    min-height: 100px;
 }
