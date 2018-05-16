@@ -1,37 +1,44 @@
 # SpareRoom Web Team Technical Task
 
+## Run Locally
+- Download from [Github repo](https://github.com/omrprt/sr-tech)
+- Open the index.html with your browser
 
-## To Do
-  -started off by making the basic template
-  -access the json file
-  -add map api
+## Technology Used
+- HTML
+- CSS
+- GIMP
+- ATOM
 
-
+## Development Process
+1. Reviewed the project brief
+2. Broke down the large screen picture example into elements
+    - header
+    - nav menu
+    - sub menu
+    - event information areas
+      - event picture
+        - an overlay of the event date, time and close up map.
+      - Event questions and answers area
+      - A larger map
+3. Debated doing simple html/css or React
+    - Due to time constraint went with a basic html/css, which restricted doing the APIs
+4. Worked on the HTML content with minimal styling
+5. Worked on the CSS styling for full screen
+6. Edited the logo picture background
+7. Reviewed the mobile screen picture example, and compared it to the code already written.
+8. Went back to the HTML and added classes
+9. Worked on the CSS styling for mobile
+10. Reviewed the given details font/size/colour
+11. Finalise the readme file
 
 ## Blockers
-  - Change logo background colour
-  - the nav active link arrow icon
+  - Time constraint less than a day to do the task
+  - The nav active link arrow icon
+  - Didn't implement the google map api
+  - Didn't implement the event API
 
-## Instructions
-The task is to build a single page showing an event, within the page is a form to submit details for a ticket as well as information on the event and the location.
-
-The design to follow is located in design-minwidth.png & desing-fullwidth.png, with the spacing of the main elements and font sizes
- within design-minwidth-spacing.png & design-fullwdith-spacing.png.
-
-The details of the event and the location are within event.json.
-
-## Development
-Please use any front-end technology you think is best suited to deliver the final page as well as the source code. Extra credit for a working booking form.
-
-## Mobile
-More than 50% of our customers use a mobile touch device when on our website. Please give input into how the design could further accommodate mobile devices.
-
-## Comments
-The aim of this task is to understand how you approach a peice of work, there's no hidden catches. We are intereste in seeing how you create and layout your code,
- how you approach testing and validating the solution and how you use version control.
-
-When you submit the task please include a .md file with comments on your approach and use of technology, as well as any issues you may have identified and enhancements that you could make.
-
-Please include instructions on how to deploy your solution, including any specific configuration you recommend to run the code.
-
-Thank you
+## Enhancements
+  - Build the application using react.
+  - Implement the google map api and even api.
+  - Make the code dry
