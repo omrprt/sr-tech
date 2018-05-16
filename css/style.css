@@ -63,7 +63,6 @@ h3 {
 }
 
 p{
-  font: 15px/15px arial;
   margin: 0;
 }
 
@@ -75,7 +74,6 @@ main img {
 
 .event{
   display: flex;
-
 }
 
 .eventForm {
@@ -99,6 +97,15 @@ form span {
 hr {
   width: 95%;
   color: lightgray;
+}
+
+.privacy {
+  font: 13px/13px Arial;
+}
+
+.bringId {
+  color: #5e5e5e;
+  font: bold 15px/15px Arial;
 }
 
 .inputField {
@@ -125,6 +132,10 @@ footer {
 }
 
 @media only screen and (max-width: 550px) {
+  body, html{
+    background-color: white;
+  }
+
   header img {
     margin: 5px auto 10px 10px;
     height: 30px;
@@ -132,7 +143,7 @@ footer {
 
   ul {
     padding: 0;
-    margin-left: 10px
+    margin-left: 10px;
   }
 
   .subNav {
@@ -140,11 +151,16 @@ footer {
   }
 
   main {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
   }
+
   h1 {
     font: bold 18px/18px Open, Sans;
     margin: 10px;
+  }
+
+  h1 span {
+    display: none;
   }
 }
